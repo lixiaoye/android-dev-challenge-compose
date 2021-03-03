@@ -19,7 +19,8 @@
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
 
 ## Video
-<iframe height=480 width=270 src="/results/video.mp4">
+[![Watch the video](/results/screenshot_1.png)](/results/video.mp4)
+<!-- <iframe height=480 width=270 src="/results/video.mp4"> -->
 
 
 ## License
