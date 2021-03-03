@@ -18,7 +18,7 @@ fun Navigation() {
         composable("detail/{index}") {
             DogDetailScreen(
                 navController,
-                index = it.arguments?.getInt("index")!!
+                index = it.arguments?.getString("index")!!
             )
         }
     }

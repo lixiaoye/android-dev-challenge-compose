@@ -26,9 +26,7 @@ fun DogItemCard(navController: NavHostController, index: Int, dog: Dog) {
         shape = RoundedCornerShape(12.dp),
         modifier = Modifier
             .clickable {
-                Log.e("lixiaoye", "DogItemCard2 index=$index")
                 navController.navigate("detail/$index") {
-//                    popUpTo(route = "list") {}
                 }
             }
             .padding(16.dp),

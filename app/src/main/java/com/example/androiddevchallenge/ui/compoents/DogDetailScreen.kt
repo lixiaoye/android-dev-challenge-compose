@@ -21,9 +21,14 @@ import com.example.androiddevchallenge.data.controller.DogController
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun DogDetailScreen(navController: NavHostController, index: Int) {
-    val dog = DogController.getDataSourceFromServer()[index]
-    Log.e("lixiaoye", "DogDetailScreen index=$index")
+fun DogDetailScreen(navController: NavHostController, index: String) {
+    val position = try {
+        index.toInt()
+    } catch (e: Exception) {
+        e.printStackTrace()
+        0
+    }
+    val dog = DogController.getDataSourceFromServer()[position]
     Surface(color = Color.White, modifier = Modifier.fillMaxHeight()) {
         Column(
             verticalArrangement = Arrangement.Center,

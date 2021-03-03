@@ -1,6 +1,5 @@
 package com.example.androiddevchallenge.ui.compoents
 
-import android.util.Log
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -29,7 +28,6 @@ fun DogListScreen(navController: NavHostController, dogs: ArrayList<Dog>) {
             ) {
                 itemsIndexed(dogs) { index, dog ->
                     DogItemCard(navController = navController, index = index, dog = dog)
-                    Log.e("lixiaoye", "DogItemCard index=$index")
                 }
             }
         }
