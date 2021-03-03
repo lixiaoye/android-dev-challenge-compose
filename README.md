@@ -18,6 +18,10 @@
 <!-- You can add more screenshots here if you like -->
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
 
+<video id="video" controls="" preload="none">
+    <source id="mp4" src="/results/video.mp4" type="video/mp4">
+</video>
+
 ## License
 ```
 Copyright 2020 The Android Open Source Project
