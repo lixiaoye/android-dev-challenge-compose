@@ -19,7 +19,7 @@
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
 
 ## Video
-[![Watch the video](/results/video.mp4)](/results/video.mp4)
+[![Watch the video](/results/video.mp4)](https://github.com/lixiaoye/android-dev-challenge-compose/blob/main/results/video.mp4)
 <!-- <iframe height=480 width=270 src="/results/video.mp4"> -->
 
 
